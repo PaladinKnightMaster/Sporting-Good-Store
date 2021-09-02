@@ -47,8 +47,8 @@ background-color: rgb(15, 143, 218) !important;
 
 .purple{
  animation-name: changecolor-purple;
- animation-delay: 2s;
- animation-duration: 3s;
+ animation-delay: .5s;
+ animation-duration: 1s;
  animation-fill-mode:forwards ;
 }
 
@@ -63,10 +63,16 @@ background-color: rgb(15, 143, 218) !important;
 }
 
 @keyframes changecolor-purple{
-  from{
-    color: white;
-  }
+ 
   to{
- color: rgb(66, 0, 128);
+ color: rgb(76, 1, 146);
   }
+}
+
+.text-line{
+  text-decoration: line-through;
+}
+
+.nike{
+ height: 2rem;
 }
