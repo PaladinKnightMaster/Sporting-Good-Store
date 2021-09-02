@@ -1,0 +1,72 @@
+/* BASIC STYLES HERE */
+.btn{
+  background-color: white !important;
+}
+
+.btn:hover{
+background-color: rgb(15, 143, 218) !important;
+
+
+}
+
+.banner{
+  height: 35rem;
+  width: 100vw;
+  background-color: rgba(24, 23, 23, 0.932) !important;
+  background-image: url('https://www.pngall.com/wp-content/uploads/6/Kobe-Bryant-PNG.png');
+  background-size: 35rem;
+  background-repeat: no-repeat;
+ border-bottom: 2px solid rgb(255, 255, 255);
+ border-top: 2px solid rgb(223, 223, 223);
+}
+.card{
+  padding: 4rem;
+  background: linear-gradient( to bottom, rgba(255, 255, 255, 0.445) , rgba(255, 255, 255, 0.968) )
+  ;
+  border: white solid 1px;
+  border-radius: 1rem;
+}
+.card-body{
+  border-top: solid rgb(32, 32, 32) 1px;
+}
+
+.row-line{
+  border-bottom: solid black 2px;
+}
+
+.text-sizing{
+  font-size: 8rem;
+}
+
+.gold{
+ animation-name: changecolor-yellow;
+ animation-duration: 3s;
+ animation-fill-mode:forwards ;
+}
+
+
+.purple{
+ animation-name: changecolor-purple;
+ animation-delay: 2s;
+ animation-duration: 3s;
+ animation-fill-mode:forwards ;
+}
+
+
+@keyframes changecolor-yellow{
+  from{
+    color: white;
+  }
+  to{
+ color: rgba(247, 211, 6, 0.884);
+  }
+}
+
+@keyframes changecolor-purple{
+  from{
+    color: white;
+  }
+  to{
+ color: rgb(66, 0, 128);
+  }
+}
